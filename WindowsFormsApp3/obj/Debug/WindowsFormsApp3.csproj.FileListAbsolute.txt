@@ -1,0 +1,30 @@
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindownsFormsApp3.View.formBook.resources
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindowsF.90B8DF9B.Up2Date
+C:\Users\ADMIN\Documents\Visual Studio 2017\Projects\BSM\WindowsFormsApp3\obj\Debug\WindownsFormsApp3.formMain.resources
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindownsFormsApp3.formMain.resources
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindownsFormsApp3.View.formBook.resources
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+E:\Project\C_Sharp\BSM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache

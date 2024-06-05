@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Project\\C_Sharp\\BSM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\view\\formbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\view\\formbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\view\\formbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\view\\formbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|e:\\project\\c_sharp\\bsm\\windowsformsapp3\\dataservice\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\dataservice\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|e:\\project\\c_sharp\\bsm\\windowsformsapp3\\migrations\\202405080139259_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\migrations\\202405080139259_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|E:\\Project\\C_Sharp\\BSM\\windowsformsapp3\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0750190-0C46-46EA-82AA-D82A1E003810}|WindowsFormsApp3\\WindowsFormsApp3.csproj|solutionrelative:windowsformsapp3\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 170,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "202405080139259_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Migrations\\202405080139259_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\Migrations\\202405080139259_InitialCreate.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Migrations\\202405080139259_InitialCreate.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\Migrations\\202405080139259_InitialCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T02:48:47.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\Migrations\\Configuration.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T02:42:35.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\DataService\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\DataService\\MyDbContext.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\DataService\\MyDbContext.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\DataService\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:44:56.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "formMain.Designer.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\formMain.Designer.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\formMain.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:35:03.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formMain.cs [Design]",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\formMain.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp3\\formMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:34:02.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formBook.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\View\\formBook.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\View\\formBook.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\View\\formBook.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\View\\formBook.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:33:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formBook.cs [Design]",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\View\\formBook.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\View\\formBook.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\View\\formBook.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp3\\View\\formBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:33:39.707Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\Models\\Book.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Models\\Book.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\Models\\Book.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAkwG0AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:35:38.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\Models\\Category.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Models\\Category.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:50:00.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "formMain.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\formMain.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\formMain.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\formMain.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:33:10.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\App.config",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\App.config",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\App.config",
+              "RelativeToolTip": "WindowsFormsApp3\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-08T01:33:08.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp3\\Program.cs",
+              "ToolTip": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T01:33:07.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

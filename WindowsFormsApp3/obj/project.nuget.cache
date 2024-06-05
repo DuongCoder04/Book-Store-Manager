@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yAGnionPE2K/S4MFh+QrR0IiNMyEpglcQy2DH/7rweK4EyhpqsTBhDHIGus+atPvs1qmH7SnHt5O0w4TKtMnOg==",
+  "success": true,
+  "projectFilePath": "E:\\Project\\C_Sharp\\BSM\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}
