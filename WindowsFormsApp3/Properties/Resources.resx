@@ -121,6 +121,9 @@
   <data name="user_3237472" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_3237472.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bill_6295902 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bill_6295902 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,6 +139,9 @@
   <data name="delete_6861362 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete_6861362 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="42833" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42833.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="old-books-436498" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\old-books-436498.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,6 +153,9 @@
   </data>
   <data name="right-arrow_556690 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right-arrow_556690 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-hissetmehurriyeti-47135946-8519443 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-hissetmehurriyeti-47135946-8519443 (Custom).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Authors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Authors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +169,20 @@
   <data name="pexels-meruyert-gonullu-7244321" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-meruyert-gonullu-7244321.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="5328260" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5328260.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pexels-fariphotography-964547 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-fariphotography-964547 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels-hissetmehurriyeti-47135946-8519443 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-hissetmehurriyeti-47135946-8519443 (Custom).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Category_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Category_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search_14440839 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search_14440839 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5447769" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5447769.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_149071 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_149071 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,9 +202,6 @@
   <data name="Publisher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Publisher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Category_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Category_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="arrow-right_9847468 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow-right_9847468 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,7 +211,7 @@
   <data name="user_149071" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_149071.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bill_6295902 (Custom)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bill_6295902 (Custom).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pattern-5649403_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pattern-5649403_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

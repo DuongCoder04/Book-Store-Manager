@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formLogin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnShowp = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.btnLogin = new DevExpress.XtraEditors.SimpleButton();
             this.label3 = new System.Windows.Forms.Label();
             this.ckbReAcc = new System.Windows.Forms.CheckBox();
@@ -44,8 +44,10 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(46)))), ((int)(((byte)(66)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnShowp);
-            this.panel1.Controls.Add(this.simpleButton1);
+            this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.ckbReAcc);
@@ -53,7 +55,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txbPassword);
             this.panel1.Controls.Add(this.txbUserName);
-            this.panel1.Location = new System.Drawing.Point(16, 13);
+            this.panel1.Location = new System.Drawing.Point(156, 23);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(314, 370);
             this.panel1.TabIndex = 0;
@@ -70,17 +72,18 @@
             this.btnShowp.TabIndex = 1;
             this.btnShowp.Click += new System.EventHandler(this.btnShowp_Click);
             // 
-            // simpleButton1
+            // btnExit
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(167, 306);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(140, 42);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "Thoát";
-            this.simpleButton1.Click += new System.EventHandler(this.btnExit_Click);
+            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnExit.Location = new System.Drawing.Point(167, 306);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(140, 42);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnLogin
             // 
@@ -99,6 +102,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("SVN-HC Rostrum", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(208)))), ((int)(((byte)(147)))));
             this.label3.Location = new System.Drawing.Point(44, 18);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(228, 75);
@@ -110,6 +114,7 @@
             this.ckbReAcc.AutoSize = true;
             this.ckbReAcc.BackColor = System.Drawing.Color.Transparent;
             this.ckbReAcc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbReAcc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(208)))), ((int)(((byte)(147)))));
             this.ckbReAcc.Location = new System.Drawing.Point(12, 268);
             this.ckbReAcc.Name = "ckbReAcc";
             this.ckbReAcc.Size = new System.Drawing.Size(109, 20);
@@ -122,6 +127,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(208)))), ((int)(((byte)(147)))));
             this.label2.Location = new System.Drawing.Point(8, 205);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(98, 23);
@@ -133,6 +139,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(208)))), ((int)(((byte)(147)))));
             this.label1.Location = new System.Drawing.Point(8, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 23);
@@ -160,13 +167,17 @@
             // 
             // formLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(344, 414);
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._5447769;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CancelButton = this.btnExit;
+            this.ClientSize = new System.Drawing.Size(620, 414);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
@@ -187,7 +198,7 @@
         private System.Windows.Forms.TextBox txbUserName;
         private System.Windows.Forms.Label label3;
         private DevExpress.XtraEditors.SimpleButton btnLogin;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnExit;
         private DevExpress.XtraEditors.SimpleButton btnShowp;
     }
 }

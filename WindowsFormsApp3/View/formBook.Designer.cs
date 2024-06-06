@@ -330,6 +330,7 @@
             this.panel1.Controls.Add(this.txbFileDirection);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label10);
+            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.panel1.Location = new System.Drawing.Point(40, 90);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1173, 237);
@@ -417,6 +418,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.btnReLoad);
             this.panel2.Controls.Add(this.btnExit);
             this.panel2.Controls.Add(this.btnDelete);
@@ -491,6 +493,7 @@
             // reflectionLabel1
             // 
             this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.reflectionLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.reflectionLabel1.Location = new System.Drawing.Point(40, 22);
             this.reflectionLabel1.Name = "reflectionLabel1";
             this.reflectionLabel1.Size = new System.Drawing.Size(240, 70);
@@ -503,6 +506,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._5328260;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(1229, 833);
             this.Controls.Add(this.reflectionLabel1);

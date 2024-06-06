@@ -36,14 +36,14 @@
             this.txbIdPublisher = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
-            this.btnReload = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridViewPublisher = new System.Windows.Forms.DataGridView();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
+            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
+            this.btnReload = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPublisher)).BeginInit();
@@ -51,6 +51,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.txbSearch);
             this.panel2.Controls.Add(this.txbNamePublisher);
             this.panel2.Controls.Add(this.label3);
@@ -86,8 +87,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label3.Location = new System.Drawing.Point(3, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 19);
@@ -106,8 +108,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label2.Location = new System.Drawing.Point(3, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(158, 19);
@@ -117,13 +120,65 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label1.Location = new System.Drawing.Point(3, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(151, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Mã nhà xuất bản:";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.dataGridViewPublisher);
+            this.panel1.Location = new System.Drawing.Point(13, 83);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(281, 484);
+            this.panel1.TabIndex = 2;
+            // 
+            // dataGridViewPublisher
+            // 
+            this.dataGridViewPublisher.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewPublisher.Location = new System.Drawing.Point(4, 3);
+            this.dataGridViewPublisher.Name = "dataGridViewPublisher";
+            this.dataGridViewPublisher.Size = new System.Drawing.Size(274, 478);
+            this.dataGridViewPublisher.TabIndex = 0;
+            this.dataGridViewPublisher.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPublisher_CellClick);
+            // 
+            // reflectionLabel1
+            // 
+            this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.reflectionLabel1.Location = new System.Drawing.Point(13, 13);
+            this.reflectionLabel1.Name = "reflectionLabel1";
+            this.reflectionLabel1.Size = new System.Drawing.Size(402, 70);
+            this.reflectionLabel1.TabIndex = 7;
+            this.reflectionLabel1.Text = "<b><font size=\"+20\">Quản lý<font color=\"#B02B2C\"> nhà xuất bản</font></font></b>";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Appearance.Options.UseFont = true;
+            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
+            this.btnAdd.Location = new System.Drawing.Point(8, 356);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(128, 55);
+            this.btnAdd.TabIndex = 2;
+            this.btnAdd.Text = "Thêm mới";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
+            this.btnExit.Location = new System.Drawing.Point(499, 23);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(90, 35);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.Text = "Trở về";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnUpdate
             // 
@@ -161,63 +216,14 @@
             this.btnDelete.Text = "Xóa bỏ";
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Appearance.Options.UseFont = true;
-            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(8, 356);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(128, 55);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "Thêm mới";
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
-            this.btnExit.Location = new System.Drawing.Point(499, 23);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(90, 35);
-            this.btnExit.TabIndex = 7;
-            this.btnExit.Text = "Trở về";
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.dataGridViewPublisher);
-            this.panel1.Location = new System.Drawing.Point(13, 83);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 484);
-            this.panel1.TabIndex = 2;
-            // 
-            // dataGridViewPublisher
-            // 
-            this.dataGridViewPublisher.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPublisher.Location = new System.Drawing.Point(4, 3);
-            this.dataGridViewPublisher.Name = "dataGridViewPublisher";
-            this.dataGridViewPublisher.Size = new System.Drawing.Size(274, 478);
-            this.dataGridViewPublisher.TabIndex = 0;
-            this.dataGridViewPublisher.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPublisher_CellClick);
-            // 
-            // reflectionLabel1
-            // 
-            this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.reflectionLabel1.Location = new System.Drawing.Point(13, 13);
-            this.reflectionLabel1.Name = "reflectionLabel1";
-            this.reflectionLabel1.Size = new System.Drawing.Size(402, 70);
-            this.reflectionLabel1.TabIndex = 7;
-            this.reflectionLabel1.Text = "<b><font size=\"+20\">Quản lý<font color=\"#B02B2C\"> nhà xuất bản</font></font></b>";
-            // 
             // formPublisher
             // 
             this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._42833;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(625, 582);
             this.Controls.Add(this.reflectionLabel1);

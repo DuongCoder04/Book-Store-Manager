@@ -182,9 +182,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(388, 141);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
+            this.label1.Location = new System.Drawing.Point(388, 142);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 19);
             this.label1.TabIndex = 6;
@@ -193,8 +194,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label2.Location = new System.Drawing.Point(388, 170);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 19);
@@ -204,8 +206,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label3.Location = new System.Drawing.Point(656, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 19);
@@ -251,8 +254,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label4.Location = new System.Drawing.Point(10, 142);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 19);
@@ -267,6 +271,7 @@
             this.dtDate.BackgroundStyle.Class = "DateTimeInputBackground";
             this.dtDate.ButtonDropDown.Visible = true;
             this.dtDate.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtDate.ForeColor = System.Drawing.Color.Black;
             this.dtDate.Location = new System.Drawing.Point(67, 140);
             // 
             // 
@@ -303,6 +308,7 @@
             this.ckbPay.AutoSize = true;
             this.ckbPay.BackColor = System.Drawing.Color.Transparent;
             this.ckbPay.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.ckbPay.Location = new System.Drawing.Point(257, 141);
             this.ckbPay.Name = "ckbPay";
             this.ckbPay.Size = new System.Drawing.Size(121, 20);
@@ -322,8 +328,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label5.Location = new System.Drawing.Point(12, 116);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 19);
@@ -342,8 +349,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label6.Location = new System.Drawing.Point(388, 115);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(171, 19);
@@ -362,7 +370,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label7.Location = new System.Drawing.Point(548, 762);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(93, 19);
@@ -383,6 +393,7 @@
             // reflectionLabel1
             // 
             this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.reflectionLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.reflectionLabel1.Location = new System.Drawing.Point(16, 12);
             this.reflectionLabel1.Name = "reflectionLabel1";
             this.reflectionLabel1.Size = new System.Drawing.Size(348, 70);
@@ -393,6 +404,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(130)))), ((int)(((byte)(137)))));
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._42833;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(818, 796);
             this.Controls.Add(this.reflectionLabel1);
             this.Controls.Add(this.labelTotal);
@@ -421,6 +435,7 @@
             this.Controls.Add(this.btnAddBill);
             this.Controls.Add(this.dataGridViewBillInfo);
             this.Controls.Add(this.dataGridViewBill);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.Name = "formBill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formBill";

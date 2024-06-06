@@ -63,6 +63,36 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _42833 {
+            get {
+                object obj = ResourceManager.GetObject("42833", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5328260 {
+            get {
+                object obj = ResourceManager.GetObject("5328260", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5447769 {
+            get {
+                object obj = ResourceManager.GetObject("5447769", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap arrow_14035318__Custom_ {
             get {
                 object obj = ResourceManager.GetObject("arrow_14035318 (Custom)", resourceCulture);
@@ -176,6 +206,16 @@ namespace WindowsFormsApp.Properties {
         internal static System.Drawing.Bitmap password_13222412__Custom_ {
             get {
                 object obj = ResourceManager.GetObject("password_13222412 (Custom)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pattern_5649403_1280 {
+            get {
+                object obj = ResourceManager.GetObject("pattern-5649403_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

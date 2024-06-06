@@ -49,8 +49,8 @@
             this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
             this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
             this.btnReload = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
+            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStaff)).BeginInit();
             this.panel2.SuspendLayout();
@@ -59,6 +59,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.dataGridViewStaff);
             this.panel1.Location = new System.Drawing.Point(16, 222);
             this.panel1.Name = "panel1";
@@ -79,6 +80,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.txbSearch);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.txbPhone);
@@ -99,6 +101,7 @@
             // txbSearch
             // 
             this.txbSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbSearch.Location = new System.Drawing.Point(528, 34);
             this.txbSearch.Name = "txbSearch";
             this.txbSearch.Size = new System.Drawing.Size(194, 26);
@@ -108,8 +111,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label6.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label6.Location = new System.Drawing.Point(406, 37);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 19);
@@ -119,6 +123,7 @@
             // txbPhone
             // 
             this.txbPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbPhone.Location = new System.Drawing.Point(528, 107);
             this.txbPhone.Name = "txbPhone";
             this.txbPhone.Size = new System.Drawing.Size(194, 26);
@@ -127,8 +132,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label5.Location = new System.Drawing.Point(406, 74);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 19);
@@ -138,6 +144,7 @@
             // txbPosition
             // 
             this.txbPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbPosition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbPosition.Location = new System.Drawing.Point(528, 71);
             this.txbPosition.Name = "txbPosition";
             this.txbPosition.Size = new System.Drawing.Size(194, 26);
@@ -146,8 +153,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label4.Location = new System.Drawing.Point(406, 110);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 19);
@@ -157,6 +165,7 @@
             // txbAddress
             // 
             this.txbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbAddress.Location = new System.Drawing.Point(174, 107);
             this.txbAddress.Name = "txbAddress";
             this.txbAddress.Size = new System.Drawing.Size(195, 26);
@@ -165,8 +174,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label3.Location = new System.Drawing.Point(22, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 19);
@@ -176,6 +186,7 @@
             // txbNameStaff
             // 
             this.txbNameStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbNameStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbNameStaff.Location = new System.Drawing.Point(174, 71);
             this.txbNameStaff.Name = "txbNameStaff";
             this.txbNameStaff.Size = new System.Drawing.Size(195, 26);
@@ -184,8 +195,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label2.Location = new System.Drawing.Point(22, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 19);
@@ -195,6 +207,7 @@
             // txbIdStaff
             // 
             this.txbIdStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbIdStaff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.txbIdStaff.Location = new System.Drawing.Point(174, 34);
             this.txbIdStaff.Name = "txbIdStaff";
             this.txbIdStaff.ReadOnly = true;
@@ -204,8 +217,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(211)))), ((int)(((byte)(201)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
             this.label1.Location = new System.Drawing.Point(22, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 19);
@@ -214,6 +228,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.btnAdd);
             this.panel3.Controls.Add(this.btnUpdate);
             this.panel3.Controls.Add(this.btnDelete);
@@ -271,10 +286,23 @@
             this.btnReload.Text = "Làm mới";
             this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
+            // reflectionLabel1
+            // 
+            this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.reflectionLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(53)))), ((int)(((byte)(78)))));
+            this.reflectionLabel1.Location = new System.Drawing.Point(16, 13);
+            this.reflectionLabel1.Name = "reflectionLabel1";
+            this.reflectionLabel1.Size = new System.Drawing.Size(348, 70);
+            this.reflectionLabel1.TabIndex = 13;
+            this.reflectionLabel1.Text = "<b><font size=\"+20\">Quản lý<font color=\"#B02B2C\"> nhân viên</font></font></b>";
+            // 
             // btnExit
             // 
+            this.btnExit.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Appearance.Options.UseBackColor = true;
             this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
             this.btnExit.Location = new System.Drawing.Point(648, 25);
@@ -284,21 +312,13 @@
             this.btnExit.Text = "Trở về";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // reflectionLabel1
-            // 
-            this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.reflectionLabel1.Location = new System.Drawing.Point(16, 13);
-            this.reflectionLabel1.Name = "reflectionLabel1";
-            this.reflectionLabel1.Size = new System.Drawing.Size(348, 70);
-            this.reflectionLabel1.TabIndex = 13;
-            this.reflectionLabel1.Text = "<b><font size=\"+20\">Quản lý<font color=\"#B02B2C\"> nhân viên</font></font></b>";
-            // 
             // formStaff
             // 
             this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources.pattern_5649403_1280;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(768, 738);
             this.Controls.Add(this.reflectionLabel1);

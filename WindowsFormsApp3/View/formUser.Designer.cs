@@ -45,7 +45,6 @@
             this.btnReload = new DevExpress.XtraEditors.SimpleButton();
             this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.dataGridViewUser = new System.Windows.Forms.DataGridView();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -70,6 +69,7 @@
             this.office2007StartButton1 = new DevComponents.DotNetBar.Office2007StartButton();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
+            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewUser)).BeginInit();
             this.panel1.SuspendLayout();
@@ -77,6 +77,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.txbSearch);
             this.panel2.Controls.Add(this.txbPermision);
             this.panel2.Controls.Add(this.label5);
@@ -118,6 +119,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label5.Location = new System.Drawing.Point(17, 219);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 19);
@@ -137,6 +139,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label4.Location = new System.Drawing.Point(17, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(104, 19);
@@ -165,6 +168,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label1.Location = new System.Drawing.Point(20, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 19);
@@ -176,6 +180,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label3.Location = new System.Drawing.Point(17, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 19);
@@ -187,6 +192,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.label2.Location = new System.Drawing.Point(16, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 19);
@@ -241,19 +247,6 @@
             this.btnAdd.Text = "Thêm mới";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // btnExit
-            // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
-            this.btnExit.Location = new System.Drawing.Point(721, 31);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(91, 34);
-            this.btnExit.TabIndex = 10;
-            this.btnExit.Text = "Trở về";
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // dataGridViewUser
             // 
             this.dataGridViewUser.BackgroundColor = System.Drawing.Color.White;
@@ -276,6 +269,7 @@
             // reflectionLabel1
             // 
             this.reflectionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.reflectionLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.reflectionLabel1.Location = new System.Drawing.Point(16, 13);
             this.reflectionLabel1.Name = "reflectionLabel1";
             this.reflectionLabel1.Size = new System.Drawing.Size(348, 70);
@@ -284,6 +278,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.dataGridViewUser);
             this.panel1.Location = new System.Drawing.Point(16, 89);
             this.panel1.Name = "panel1";
@@ -493,12 +488,27 @@
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Text = "ribbonTabItem1";
             // 
+            // btnExit
+            // 
+            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
+            this.btnExit.Location = new System.Drawing.Point(721, 31);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(91, 34);
+            this.btnExit.TabIndex = 10;
+            this.btnExit.Text = "Trở về";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // formUser
             // 
             this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._42833;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(847, 620);
             this.Controls.Add(this.reflectionLabel1);
