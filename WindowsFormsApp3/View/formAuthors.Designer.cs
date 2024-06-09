@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formAuthors));
             this.panel2 = new System.Windows.Forms.Panel();
             this.txbSearch = new System.Windows.Forms.TextBox();
             this.txbNameAuthors = new System.Windows.Forms.TextBox();
@@ -36,11 +35,11 @@
             this.txbIdAuthors = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
-            this.btnReload = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
+            this.btnReload = new DevComponents.DotNetBar.ButtonX();
+            this.btnDelete = new DevComponents.DotNetBar.ButtonX();
+            this.btnAdd = new DevComponents.DotNetBar.ButtonX();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.dataGridViewAuthors = new System.Windows.Forms.DataGridView();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
             this.panel2.SuspendLayout();
@@ -129,9 +128,8 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Appearance.Options.UseFont = true;
-            this.btnUpdate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.ImageOptions.Image")));
+            this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(168, 274);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(128, 55);
@@ -141,9 +139,8 @@
             // 
             // btnReload
             // 
-            this.btnReload.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReload.Appearance.Options.UseFont = true;
-            this.btnReload.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.ImageOptions.Image")));
+            this.btnReload.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnReload.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReload.Location = new System.Drawing.Point(168, 335);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(128, 55);
@@ -153,9 +150,8 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Appearance.Options.UseFont = true;
-            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
+            this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(21, 335);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(128, 55);
@@ -165,9 +161,8 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Appearance.Options.UseFont = true;
-            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
+            this.btnAdd.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.Location = new System.Drawing.Point(21, 274);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(128, 55);
@@ -177,12 +172,11 @@
             // 
             // btnExit
             // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
-            this.btnExit.Location = new System.Drawing.Point(503, 31);
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(517, 34);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(94, 36);
+            this.btnExit.Size = new System.Drawing.Size(80, 35);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Trở về";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -234,11 +228,11 @@
         private System.Windows.Forms.TextBox txbIdAuthors;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private DevExpress.XtraEditors.SimpleButton btnUpdate;
-        private DevExpress.XtraEditors.SimpleButton btnExit;
-        private DevExpress.XtraEditors.SimpleButton btnReload;
-        private DevExpress.XtraEditors.SimpleButton btnDelete;
-        private DevExpress.XtraEditors.SimpleButton btnAdd;
+        private DevComponents.DotNetBar.ButtonX btnUpdate;
+        private DevComponents.DotNetBar.ButtonX btnExit;
+        private DevComponents.DotNetBar.ButtonX btnReload;
+        private DevComponents.DotNetBar.ButtonX btnDelete;
+        private DevComponents.DotNetBar.ButtonX btnAdd;
         private System.Windows.Forms.DataGridView dataGridViewAuthors;
         private DevComponents.DotNetBar.Controls.ReflectionLabel reflectionLabel1;
         private System.Windows.Forms.TextBox txbSearch;

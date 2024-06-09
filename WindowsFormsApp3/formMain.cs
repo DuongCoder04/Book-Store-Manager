@@ -9,32 +9,58 @@ namespace WindowsFormsApp
         public static string __UserName;
         public static string __Password;
         public static string __Permision;
+
         public formMain()
         {
             InitializeComponent();
         }
+
+        private void formMain_Load(object sender, EventArgs e)
+        {
+            if (ShowLoginForm() == 1)
+            {
+                // Form Login đã thành công, formMain hiển thị
+                this.Show();
+            }
+        }
         private void btnBook_Click(object sender, EventArgs e)
         {
-            formBook f = new formBook();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            OpenForm<formBook>();
         }
 
         private void btnCategory_Click(object sender, EventArgs e)
         {
-            formCategory f = new formCategory();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            OpenForm<formCategory>();
         }
 
         private void btnAuthors_Click(object sender, EventArgs e)
         {
-            formAuthors f = new formAuthors();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            OpenForm<formAuthors>();
+        }
+
+        private void btnStaff_Click(object sender, EventArgs e)
+        {
+            OpenForm<formStaff>();
+        }
+
+        private void btnPublisher_Click(object sender, EventArgs e)
+        {
+            OpenForm<formPublisher>();
+        }
+
+        private void btnUser_Click(object sender, EventArgs e)
+        {
+            OpenForm<formUser>();
+        }
+
+        private void btnChangePW_Click(object sender, EventArgs e)
+        {
+            OpenForm<formChangePassword>();
+        }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            OpenForm<formBill>();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -42,46 +68,11 @@ namespace WindowsFormsApp
             Application.Exit();
         }
 
-        private void btnStaff_Click(object sender, EventArgs e)
-        {
-            formStaff f = new formStaff();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-        }
-
-        private void btnPublisher_Click(object sender, EventArgs e)
-        {
-            formPublisher f = new formPublisher();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-        }
-
         private void btnLogout_Click(object sender, EventArgs e)
         {
             ShowLoginForm();
         }
 
-        private void formMain_Load(object sender, EventArgs e)
-        {
-            if (ShowLoginForm() > 0)
-            {
-                this.Show();
-            }
-        }
-        private void permision(string permision)
-        {
-            switch (permision)
-            {
-                case "quản lý":
-                    rbUser.Enabled = true;
-                    break;
-                case "nhân viên":
-                    rbUser.Enabled = false;
-                    break;
-            }
-        }
         public int ShowLoginForm()
         {
             using (var loginForm = new formLogin())
@@ -92,37 +83,27 @@ namespace WindowsFormsApp
                     __UserName = loginForm._username;
                     __Password = loginForm._password;
                     __Permision = loginForm._permision;
-                    permision(loginForm._permision);
+                    SetPermissions(loginForm._permision);
                     return 1;
                 }
                 return 0;
             }
         }
-        private void btnUser_Click(object sender, EventArgs e)
+
+        private void SetPermissions(string permision)
         {
-            using (var formlogin = new formLogin())
+            rbUser.Enabled = permision == "quản lý";
+        }
+
+        private void OpenForm<T>() where T : Form, new()
+        {
+            using (var form = new T())
             {
-                 formUser f = new formUser();
-                 this.Hide();
-                 f.ShowDialog();
-                 this.Show();
+                this.Hide();
+                form.ShowDialog();
+                this.Show();
             }
-        }
-
-        private void btnChangePW_Click(object sender, EventArgs e)
-        {
-            formChangePassword f = new formChangePassword();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-        }
-
-        private void btnBill_Click(object sender, EventArgs e)
-        {
-            formBill f = new formBill();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
         }
     }
 }
+

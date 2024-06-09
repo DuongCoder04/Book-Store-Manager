@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formPublisher));
             this.panel2 = new System.Windows.Forms.Panel();
             this.txbSearch = new System.Windows.Forms.TextBox();
             this.txbNamePublisher = new System.Windows.Forms.TextBox();
@@ -36,14 +35,14 @@
             this.txbIdPublisher = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
+            this.btnReload = new DevComponents.DotNetBar.ButtonX();
+            this.btnDelete = new DevComponents.DotNetBar.ButtonX();
+            this.btnAdd = new DevComponents.DotNetBar.ButtonX();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridViewPublisher = new System.Windows.Forms.DataGridView();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
-            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
-            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
-            this.btnReload = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPublisher)).BeginInit();
@@ -129,6 +128,50 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Mã nhà xuất bản:";
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(161, 356);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(128, 55);
+            this.btnUpdate.TabIndex = 3;
+            this.btnUpdate.Text = "Chỉnh sửa";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnReload
+            // 
+            this.btnReload.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnReload.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.Location = new System.Drawing.Point(161, 417);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(128, 55);
+            this.btnReload.TabIndex = 6;
+            this.btnReload.Text = "Làm mới";
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(8, 417);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(128, 55);
+            this.btnDelete.TabIndex = 4;
+            this.btnDelete.Text = "Xóa bỏ";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(8, 356);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(128, 55);
+            this.btnAdd.TabIndex = 2;
+            this.btnAdd.Text = "Thêm mới";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.dataGridViewPublisher);
@@ -155,66 +198,17 @@
             this.reflectionLabel1.TabIndex = 7;
             this.reflectionLabel1.Text = "<b><font size=\"+20\">Quản lý<font color=\"#B02B2C\"> nhà xuất bản</font></font></b>";
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Appearance.Options.UseFont = true;
-            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(8, 356);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(128, 55);
-            this.btnAdd.TabIndex = 2;
-            this.btnAdd.Text = "Thêm mới";
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
             // btnExit
             // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(499, 23);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(90, 35);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Trở về";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Appearance.Options.UseFont = true;
-            this.btnUpdate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.ImageOptions.Image")));
-            this.btnUpdate.Location = new System.Drawing.Point(161, 356);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(128, 55);
-            this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "Chỉnh sửa";
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
-            // btnReload
-            // 
-            this.btnReload.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReload.Appearance.Options.UseFont = true;
-            this.btnReload.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.ImageOptions.Image")));
-            this.btnReload.Location = new System.Drawing.Point(161, 417);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(128, 55);
-            this.btnReload.TabIndex = 6;
-            this.btnReload.Text = "Làm mới";
-            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Appearance.Options.UseFont = true;
-            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(8, 417);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(128, 55);
-            this.btnDelete.TabIndex = 4;
-            this.btnDelete.Text = "Xóa bỏ";
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // formPublisher
             // 
@@ -248,11 +242,11 @@
         private System.Windows.Forms.TextBox txbNamePublisher;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private DevExpress.XtraEditors.SimpleButton btnUpdate;
-        private DevExpress.XtraEditors.SimpleButton btnExit;
-        private DevExpress.XtraEditors.SimpleButton btnReload;
-        private DevExpress.XtraEditors.SimpleButton btnDelete;
-        private DevExpress.XtraEditors.SimpleButton btnAdd;
+        private DevComponents.DotNetBar.ButtonX btnUpdate;
+        private DevComponents.DotNetBar.ButtonX btnExit;
+        private DevComponents.DotNetBar.ButtonX btnReload;
+        private DevComponents.DotNetBar.ButtonX btnDelete;
+        private DevComponents.DotNetBar.ButtonX btnAdd;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridViewPublisher;
         private System.Windows.Forms.TextBox txbIdPublisher;

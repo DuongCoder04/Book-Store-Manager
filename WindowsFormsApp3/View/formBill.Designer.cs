@@ -28,27 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formBill));
             this.dataGridViewBill = new System.Windows.Forms.DataGridView();
             this.dataGridViewBillInfo = new System.Windows.Forms.DataGridView();
-            this.btnAddBill = new DevExpress.XtraEditors.SimpleButton();
-            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnReload = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAddBill = new DevComponents.DotNetBar.ButtonX();
+            this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
+            this.btnDelete = new DevComponents.DotNetBar.ButtonX();
+            this.btnReload = new DevComponents.DotNetBar.ButtonX();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.cbCategory = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.cbBookName = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.nmCount = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnAddBook = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDeleteBook = new DevExpress.XtraEditors.SimpleButton();
-            this.btnUpdateBI = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAddBook = new DevComponents.DotNetBar.ButtonX();
+            this.btnDeleteBook = new DevComponents.DotNetBar.ButtonX();
+            this.btnUpdateBI = new DevComponents.DotNetBar.ButtonX();
             this.label4 = new System.Windows.Forms.Label();
             this.dtDate = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
             this.ckbPay = new System.Windows.Forms.CheckBox();
-            this.btnFind = new DevExpress.XtraEditors.SimpleButton();
+            this.btnFind = new DevComponents.DotNetBar.ButtonX();
             this.label5 = new System.Windows.Forms.Label();
             this.txbIdBill = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -82,9 +81,9 @@
             // 
             // btnAddBill
             // 
-            this.btnAddBill.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddBill.Appearance.Options.UseFont = true;
-            this.btnAddBill.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddBill.ImageOptions.Image")));
+            this.btnAddBill.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddBill.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddBill.ForeColor = System.Drawing.Color.Black;
             this.btnAddBill.Location = new System.Drawing.Point(12, 726);
             this.btnAddBill.Name = "btnAddBill";
             this.btnAddBill.Size = new System.Drawing.Size(128, 55);
@@ -94,9 +93,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Appearance.Options.UseFont = true;
-            this.btnUpdate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.ImageOptions.Image")));
+            this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.Color.Black;
             this.btnUpdate.Location = new System.Drawing.Point(146, 726);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(128, 55);
@@ -106,9 +105,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Appearance.Options.UseFont = true;
-            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
+            this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.Color.Black;
             this.btnDelete.Location = new System.Drawing.Point(280, 726);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(128, 55);
@@ -118,9 +117,9 @@
             // 
             // btnReload
             // 
-            this.btnReload.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReload.Appearance.Options.UseFont = true;
-            this.btnReload.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReload.ImageOptions.Image")));
+            this.btnReload.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnReload.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReload.ForeColor = System.Drawing.Color.Black;
             this.btnReload.Location = new System.Drawing.Point(414, 726);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(128, 55);
@@ -130,12 +129,12 @@
             // 
             // btnExit
             // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.Black;
             this.btnExit.Location = new System.Drawing.Point(722, 10);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(81, 36);
+            this.btnExit.Size = new System.Drawing.Size(80, 35);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Trở về";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -217,9 +216,9 @@
             // 
             // btnAddBook
             // 
-            this.btnAddBook.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddBook.Appearance.Options.UseFont = true;
-            this.btnAddBook.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddBook.ImageOptions.Image")));
+            this.btnAddBook.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAddBook.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddBook.ForeColor = System.Drawing.Color.Black;
             this.btnAddBook.Location = new System.Drawing.Point(385, 196);
             this.btnAddBook.Name = "btnAddBook";
             this.btnAddBook.Size = new System.Drawing.Size(128, 30);
@@ -229,9 +228,9 @@
             // 
             // btnDeleteBook
             // 
-            this.btnDeleteBook.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteBook.Appearance.Options.UseFont = true;
-            this.btnDeleteBook.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteBook.ImageOptions.Image")));
+            this.btnDeleteBook.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDeleteBook.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteBook.ForeColor = System.Drawing.Color.Black;
             this.btnDeleteBook.Location = new System.Drawing.Point(530, 196);
             this.btnDeleteBook.Name = "btnDeleteBook";
             this.btnDeleteBook.Size = new System.Drawing.Size(128, 30);
@@ -241,9 +240,9 @@
             // 
             // btnUpdateBI
             // 
-            this.btnUpdateBI.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateBI.Appearance.Options.UseFont = true;
-            this.btnUpdateBI.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateBI.ImageOptions.Image")));
+            this.btnUpdateBI.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnUpdateBI.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateBI.ForeColor = System.Drawing.Color.Black;
             this.btnUpdateBI.Location = new System.Drawing.Point(674, 196);
             this.btnUpdateBI.Name = "btnUpdateBI";
             this.btnUpdateBI.Size = new System.Drawing.Size(128, 30);
@@ -318,11 +317,14 @@
             // 
             // btnFind
             // 
-            this.btnFind.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnFind.ImageOptions.Image")));
+            this.btnFind.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnFind.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.ForeColor = System.Drawing.Color.Black;
             this.btnFind.Location = new System.Drawing.Point(208, 140);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(38, 23);
             this.btnFind.TabIndex = 10;
+            this.btnFind.Text = "Tìm";
             this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // label5
@@ -435,7 +437,7 @@
             this.Controls.Add(this.btnAddBill);
             this.Controls.Add(this.dataGridViewBillInfo);
             this.Controls.Add(this.dataGridViewBill);
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "formBill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formBill";
@@ -453,24 +455,24 @@
 
         private System.Windows.Forms.DataGridView dataGridViewBill;
         private System.Windows.Forms.DataGridView dataGridViewBillInfo;
-        private DevExpress.XtraEditors.SimpleButton btnAddBill;
-        private DevExpress.XtraEditors.SimpleButton btnUpdate;
-        private DevExpress.XtraEditors.SimpleButton btnDelete;
-        private DevExpress.XtraEditors.SimpleButton btnReload;
-        private DevExpress.XtraEditors.SimpleButton btnExit;
+        private DevComponents.DotNetBar.ButtonX btnAddBill;
+        private DevComponents.DotNetBar.ButtonX btnUpdate;
+        private DevComponents.DotNetBar.ButtonX btnDelete;
+        private DevComponents.DotNetBar.ButtonX btnReload;
+        private DevComponents.DotNetBar.ButtonX btnExit;
         private DevComponents.DotNetBar.Controls.ComboBoxEx cbCategory;
         private DevComponents.DotNetBar.Controls.ComboBoxEx cbBookName;
         private System.Windows.Forms.NumericUpDown nmCount;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.SimpleButton btnAddBook;
-        private DevExpress.XtraEditors.SimpleButton btnDeleteBook;
-        private DevExpress.XtraEditors.SimpleButton btnUpdateBI;
+        private DevComponents.DotNetBar.ButtonX btnAddBook;
+        private DevComponents.DotNetBar.ButtonX btnDeleteBook;
+        private DevComponents.DotNetBar.ButtonX btnUpdateBI;
         private System.Windows.Forms.Label label4;
         private DevComponents.Editors.DateTimeAdv.DateTimeInput dtDate;
         private System.Windows.Forms.CheckBox ckbPay;
-        private DevExpress.XtraEditors.SimpleButton btnFind;
+        private DevComponents.DotNetBar.ButtonX btnFind;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbIdBill;
         private System.Windows.Forms.Label label6;

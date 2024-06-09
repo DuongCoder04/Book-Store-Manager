@@ -93,19 +93,9 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arrow_14035318__Custom_ {
+        internal static System.Drawing.Bitmap _6294140 {
             get {
-                object obj = ResourceManager.GetObject("arrow_14035318 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap arrow_right_9847468__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("arrow-right_9847468 (Custom)", resourceCulture);
+                object obj = ResourceManager.GetObject("6294140", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,16 +143,6 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap circle_14025467__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("circle_14025467 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap close_1828666__Custom_ {
             get {
                 object obj = ResourceManager.GetObject("close_1828666 (Custom)", resourceCulture);
@@ -173,9 +153,9 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete_6861362__Custom_ {
+        internal static System.Drawing.Bitmap hide_12237345 {
             get {
-                object obj = ResourceManager.GetObject("delete_6861362 (Custom)", resourceCulture);
+                object obj = ResourceManager.GetObject("hide_12237345", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,16 +166,6 @@ namespace WindowsFormsApp.Properties {
         internal static System.Drawing.Bitmap Logout {
             get {
                 object obj = ResourceManager.GetObject("Logout", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap old_books_436498 {
-            get {
-                object obj = ResourceManager.GetObject("old-books-436498", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,66 +193,6 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pencil_13424065__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("pencil_13424065 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_fariphotography_964547 {
-            get {
-                object obj = ResourceManager.GetObject("pexels-fariphotography-964547", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_fariphotography_964547__1_ {
-            get {
-                object obj = ResourceManager.GetObject("pexels-fariphotography-964547 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_hissetmehurriyeti_47135946_8519443 {
-            get {
-                object obj = ResourceManager.GetObject("pexels-hissetmehurriyeti-47135946-8519443", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_hissetmehurriyeti_47135946_8519443__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("pexels-hissetmehurriyeti-47135946-8519443 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pexels_meruyert_gonullu_7244321 {
-            get {
-                object obj = ResourceManager.GetObject("pexels-meruyert-gonullu-7244321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Publisher {
             get {
                 object obj = ResourceManager.GetObject("Publisher", resourceCulture);
@@ -293,59 +203,9 @@ namespace WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap right_arrow_556690 {
-            get {
-                object obj = ResourceManager.GetObject("right-arrow_556690", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap right_arrow_556690__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("right-arrow_556690 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_14440839__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("search_14440839 (Custom)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Setting {
-            get {
-                object obj = ResourceManager.GetObject("Setting", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Staff {
             get {
                 object obj = ResourceManager.GetObject("Staff", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap undo__Custom_ {
-            get {
-                object obj = ResourceManager.GetObject("undo (Custom)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

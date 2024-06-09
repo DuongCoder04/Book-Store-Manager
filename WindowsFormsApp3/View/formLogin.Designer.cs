@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formLogin));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnShowp = new DevExpress.XtraEditors.SimpleButton();
-            this.btnExit = new DevExpress.XtraEditors.SimpleButton();
-            this.btnLogin = new DevExpress.XtraEditors.SimpleButton();
+            this.btnShowp = new DevComponents.DotNetBar.ButtonX();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
+            this.btnLogin = new DevComponents.DotNetBar.ButtonX();
             this.label3 = new System.Windows.Forms.Label();
             this.ckbReAcc = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,22 +61,20 @@
             // 
             // btnShowp
             // 
-            this.btnShowp.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShowp.Appearance.Options.UseFont = true;
-            this.btnShowp.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnShowp.ImageOptions.Image")));
-            this.btnShowp.Location = new System.Drawing.Point(269, 233);
+            this.btnShowp.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnShowp.Image = global::WindowsFormsApp.Properties.Resources.hide_12237345;
+            this.btnShowp.ImageFixedSize = new System.Drawing.Size(20, 20);
+            this.btnShowp.Location = new System.Drawing.Point(269, 231);
             this.btnShowp.Name = "btnShowp";
-            this.btnShowp.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
             this.btnShowp.Size = new System.Drawing.Size(38, 29);
             this.btnShowp.TabIndex = 1;
             this.btnShowp.Click += new System.EventHandler(this.btnShowp_Click);
             // 
             // btnExit
             // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Appearance.Options.UseFont = true;
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(167, 306);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(140, 42);
@@ -87,9 +84,8 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Appearance.Options.UseFont = true;
-            this.btnLogin.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.ImageOptions.Image")));
+            this.btnLogin.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnLogin.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(9, 306);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(140, 42);
@@ -197,8 +193,8 @@
         private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.TextBox txbUserName;
         private System.Windows.Forms.Label label3;
-        private DevExpress.XtraEditors.SimpleButton btnLogin;
-        private DevExpress.XtraEditors.SimpleButton btnExit;
-        private DevExpress.XtraEditors.SimpleButton btnShowp;
+        private DevComponents.DotNetBar.ButtonX btnLogin;
+        private DevComponents.DotNetBar.ButtonX btnExit;
+        private DevComponents.DotNetBar.ButtonX btnShowp;
     }
 }
