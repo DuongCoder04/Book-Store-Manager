@@ -205,6 +205,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
             this.BackgroundImage = global::WindowsFormsApp.Properties.Resources.pattern_5649403_1280;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(624, 508);
             this.Controls.Add(this.reflectionLabel1);
             this.Controls.Add(this.panel2);

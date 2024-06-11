@@ -62,10 +62,10 @@
             this.label13 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnReLoad = new DevComponents.DotNetBar.ButtonX();
-            this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.btnDelete = new DevComponents.DotNetBar.ButtonX();
             this.btnUpdate = new DevComponents.DotNetBar.ButtonX();
             this.btnInsert = new DevComponents.DotNetBar.ButtonX();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.reflectionLabel1 = new DevComponents.DotNetBar.Controls.ReflectionLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBook)).BeginInit();
             this.panel1.SuspendLayout();
@@ -222,7 +222,7 @@
             this.txbFileDirection.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbFileDirection.Location = new System.Drawing.Point(795, 61);
             this.txbFileDirection.Name = "txbFileDirection";
-            this.txbFileDirection.Size = new System.Drawing.Size(363, 26);
+            this.txbFileDirection.Size = new System.Drawing.Size(300, 26);
             this.txbFileDirection.TabIndex = 11;
             // 
             // label9
@@ -242,7 +242,7 @@
             this.txbDescription.Location = new System.Drawing.Point(670, 127);
             this.txbDescription.Multiline = true;
             this.txbDescription.Name = "txbDescription";
-            this.txbDescription.Size = new System.Drawing.Size(488, 96);
+            this.txbDescription.Size = new System.Drawing.Size(425, 96);
             this.txbDescription.TabIndex = 15;
             // 
             // label10
@@ -261,7 +261,7 @@
             this.txbSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbSearch.Location = new System.Drawing.Point(795, 17);
             this.txbSearch.Name = "txbSearch";
-            this.txbSearch.Size = new System.Drawing.Size(363, 26);
+            this.txbSearch.Size = new System.Drawing.Size(300, 26);
             this.txbSearch.TabIndex = 12;
             this.txbSearch.TextChanged += new System.EventHandler(this.txbSearch_TextChanged);
             // 
@@ -292,7 +292,7 @@
             this.dataGridViewBook.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewBook.Location = new System.Drawing.Point(40, 328);
             this.dataGridViewBook.Name = "dataGridViewBook";
-            this.dataGridViewBook.Size = new System.Drawing.Size(1173, 435);
+            this.dataGridViewBook.Size = new System.Drawing.Size(1095, 340);
             this.dataGridViewBook.TabIndex = 2;
             this.dataGridViewBook.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewBook_CellClick);
             // 
@@ -332,7 +332,7 @@
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(197)))));
             this.panel1.Location = new System.Drawing.Point(40, 90);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1173, 237);
+            this.panel1.Size = new System.Drawing.Size(1095, 237);
             this.panel1.TabIndex = 3;
             // 
             // cbPublisher
@@ -380,7 +380,7 @@
             // txbPrice
             // 
             this.txbPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbPrice.Location = new System.Drawing.Point(1039, 93);
+            this.txbPrice.Location = new System.Drawing.Point(976, 93);
             this.txbPrice.Name = "txbPrice";
             this.txbPrice.Size = new System.Drawing.Size(119, 26);
             this.txbPrice.TabIndex = 1;
@@ -390,7 +390,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(993, 99);
+            this.label14.Location = new System.Drawing.Point(930, 99);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(42, 19);
             this.label14.TabIndex = 0;
@@ -423,39 +423,27 @@
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnUpdate);
             this.panel2.Controls.Add(this.btnInsert);
-            this.panel2.Location = new System.Drawing.Point(40, 766);
+            this.panel2.Location = new System.Drawing.Point(41, 675);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1173, 80);
+            this.panel2.Size = new System.Drawing.Size(1094, 80);
             this.panel2.TabIndex = 4;
             // 
             // btnReLoad
             // 
             this.btnReLoad.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnReLoad.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReLoad.Location = new System.Drawing.Point(505, 3);
+            this.btnReLoad.Location = new System.Drawing.Point(505, 17);
             this.btnReLoad.Name = "btnReLoad";
             this.btnReLoad.Size = new System.Drawing.Size(128, 55);
             this.btnReLoad.TabIndex = 19;
             this.btnReLoad.Text = "Làm mới";
             this.btnReLoad.Click += new System.EventHandler(this.btnReLoad_Click);
             // 
-            // btnExit
-            // 
-            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(1118, 34);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(80, 35);
-            this.btnExit.TabIndex = 20;
-            this.btnExit.Text = "Trở về";
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // btnDelete
             // 
             this.btnDelete.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnDelete.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(331, 3);
+            this.btnDelete.Location = new System.Drawing.Point(331, 17);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(128, 55);
             this.btnDelete.TabIndex = 18;
@@ -466,7 +454,7 @@
             // 
             this.btnUpdate.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(165, 3);
+            this.btnUpdate.Location = new System.Drawing.Point(165, 17);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(128, 55);
             this.btnUpdate.TabIndex = 17;
@@ -477,12 +465,24 @@
             // 
             this.btnInsert.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnInsert.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(3, 3);
+            this.btnInsert.Location = new System.Drawing.Point(3, 17);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(128, 55);
             this.btnInsert.TabIndex = 16;
             this.btnInsert.Text = "Thêm mới";
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnExit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(1055, 38);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(80, 35);
+            this.btnExit.TabIndex = 20;
+            this.btnExit.Text = "Trở về";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // reflectionLabel1
             // 
@@ -501,8 +501,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
             this.BackgroundImage = global::WindowsFormsApp.Properties.Resources._5328260;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(1229, 833);
+            this.ClientSize = new System.Drawing.Size(1156, 764);
             this.Controls.Add(this.reflectionLabel1);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel2);
