@@ -3,7 +3,7 @@ using WindowsFormsApp.Models;
 
 namespace WindowsFormsApp.DataService
 {
-    internal class MyDbContext : DbContext
+    public class MyDbContext : DbContext
     {
         public MyDbContext() : base("name = BSM_connectionString")
         {
@@ -18,6 +18,19 @@ namespace WindowsFormsApp.DataService
         public virtual DbSet<User> myUser { get; set; }
         public virtual DbSet<Bill> myBill { get; set; }
         public virtual DbSet<BillInfo> myBillInfo { get; set; }
+
+        private void SeedDefaultUser()
+        {
+            var defaultUser = new User
+            {
+                UserName = "admin",
+                Password = CryptoLib.Encryptor.MD5Hash("admin"),
+                Permision = "quản lý"
+            };
+
+            this.myUser.Add(defaultUser);
+            this.SaveChanges();
+        }
     }
 }
 //enable-migrations -EnableAutomaticMigration:$true

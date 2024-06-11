@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 using WindowsFormsApp.DataService;
+using WindowsFormsApp.Models;
 
 namespace WindowsFormsApp.View
 {
@@ -18,9 +19,26 @@ namespace WindowsFormsApp.View
 
         private void formLogin_Load(object sender, EventArgs e)
         {
+            CheckDefaultUser();
             LoadSavedCredentials();
         }
-
+        private void CheckDefaultUser()
+        {
+            using (var context = new MyDbContext())
+            {
+                if (!context.myUser.Any())
+                {
+                    var defaultUser = new User
+                    {
+                        UserName = "admin",
+                        Password = CryptoLib.Encryptor.MD5Hash("admin"),
+                        Permision = "quản lý"
+                    };
+                    context.myUser.Add(defaultUser);
+                    context.SaveChanges();
+                }
+            }
+        }
         private bool AuthenticateUser(string username, string password)
         {
             using (var context = new MyDbContext())
@@ -63,7 +81,7 @@ namespace WindowsFormsApp.View
             if (ckbReAcc.Checked)
             {
                 Properties.Settings.Default.UserName = txbUserName.Text;
-                Properties.Settings.Default.Password = txbPassword.Text; // Mã hóa mật khẩu trước khi lưu
+                Properties.Settings.Default.Password = txbPassword.Text; 
                 Properties.Settings.Default.Save();
             }
             else
@@ -79,7 +97,7 @@ namespace WindowsFormsApp.View
             if (!string.IsNullOrEmpty(Properties.Settings.Default.UserName))
             {
                 txbUserName.Text = Properties.Settings.Default.UserName;
-                txbPassword.Text = Properties.Settings.Default.Password; // Giải mã mật khẩu nếu đã mã hóa khi lưu
+                txbPassword.Text = Properties.Settings.Default.Password;
             }
         }
 

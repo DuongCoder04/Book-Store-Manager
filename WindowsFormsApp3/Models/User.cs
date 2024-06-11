@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WindowsFormsApp.Models
 {
     [Table("User")]
-    class User
+    public class User
     {
         public User()
         {
